@@ -1,0 +1,46 @@
+:local(p) {
+    margin: 15px 15px;
+}
+
+:local(.test) {
+    color: red;
+}
+
+/* :local(.contactform){
+    box-shadow: 4px 4px 15px 2px #333;
+    width: 300px;
+    height: 400px;
+    padding: 5px;
+    margin: auto;
+} */
+:local(div) {
+    margin: 10px;
+}
+
+:local(.contactform) {
+    width: 300px;
+    margin: 30px auto;
+    /* box-shadow: 2px 2px 10px 1px #5d615f; */
+    box-shadow: 4px 4px 15px 1px #333333;
+    padding: 20px;
+}
+
+:local(label) {
+    float: left;
+    text-align: right;
+    margin-right: 15px;
+    width: 100px;
+}
+
+:local(input, textarea, select, button) {
+    width : 150px;
+    margin: 0;
+  
+    -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+       -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+            box-sizing: border-box;
+  }
+
+/* textarea:focus, input:focus {
+    border: 2px solid #900;
+} */
